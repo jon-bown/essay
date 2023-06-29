@@ -14643,9 +14643,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The past two years have seen an unprecendented acceleration in the capability of the hardware behind Artificial Intelligence (AI) systems. Tim Sweeny, CEO of Epic Games described this transition in a recent tweet. He stated, "Artificial intelligence is doubling at a rate much faster than Moore’s Law’s 2 years, or evolutionary biology’s 2M years. Why? Because we’re bootstrapping it on the back of both laws. And if it can feed back into its own acceleration, that’s a stacked exponential" (Sweeney, 2023).</p>
-<p>In the tweet he quoted, OpenAI announced the release of an implementation of Consistency Models, a new type of generative model that achieves high sample quality without the need for adversarial training (Song, Dhariwal, Chen, &amp; Sutskever, 2023). This innovation is a significant breakthrough because adversarial training, a key component of current generative AI methods, can be very computationally demanding. The capacity to generate high-quality samples without adversarial training means much more efficient learning models and does so without any hardware innovation. This represents another large step forward in AI capabilities and aligns with Sweeny's point about the rapid rate of AI advancement. With AI's unique ability to contribute to the optimization of its own development, from refining model architectures to enhancing hardware design, it distinctly sets itself apart from traditional computer hardware development. It is this self-augmenting capacity of AI that likely leads to what Sweeny refers to as the "stacked exponential" growth.</p>
-<p>The expected growth of computing power has traditionally been benchmarked against Moore's law, that the number of transistors integrated on a circuit would approximately double every two years. However, in the last two years we have seen a surge in acceleration hardware that dramatically outpaces this prediction (Moore, 2022). What advancements in AI related computer hardware have been made in the last two years? What are the factors driving the pace of hardware innovation? How can we measure the acceleration? What does the acceleration mean for the future of AI? While it is impossible to cover every development, this essay will explore these questions in order to encapsulate the state of AI in 2023.</p>
+<p>The past two years have seen an unprecedented acceleration in the capability of the hardware behind Artificial Intelligence (AI) systems. Tim Sweeney, CEO of Epic Games described this transition in a recent tweet. He stated, "Artificial intelligence is doubling at a rate much faster than Moore’s Law’s 2 years, or evolutionary biology’s 2M years. Why? Because we’re bootstrapping it on the back of both laws. And if it can feed back into its own acceleration, that’s a stacked exponential." (Sweeney, 2023).</p>
+<p>Traditionally, Moore's Law, which predicts a 2-year doubling of transistors integrated onto a circuit, has served as the benchmark for anticipated growth in computing power. Yet, in the past two years, acceleration hardware has surpassed this prediction in several ways (Moore, 2022). What advancements in AI related computer hardware have been made in the last two years? What are the factors driving the pace of hardware innovation? How can we measure the acceleration? What does the acceleration mean for the future of AI? While it is impossible to cover every development, this essay will explore these questions in order to encapsulate the state of AI in 2023.</p>
 
 </div>
 </div>
@@ -14668,18 +14667,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The term "artificial intelligence" was first used by scientists John McCarthy, Claude Shannon, and Marvin Minsky at the Dartmouth Conference in 1956. With optimistic expectations for the field's potential, Marvin Minsky boldly proclaimed in a 1970 Life magazine article that within the next three to eight years, machines with average human intelligence would exist. The hype surrounding this forecast ignited an investment wave in the 1970s, which culminated in an AI bubble. However, when this bubble burst in the early 1980s, AI development regressed to the confines of research labs, and the field entered what is now referred to as the "AI Winter", a period of stagnation in AI development (Jotrin Electronics, 2022).</p>
-<p>This winter was primarily a result of inadequate computational power and data availability necessary for complex AI model training. During this period, Central Processing Units (CPUs) performed the bulk of computing tasks. CPUs, although efficient at handling a wide range of tasks, were not suited for rapid growth in complexity. Additionally, the algorithms and techniques utilized during this time were still in their infancy, lacking optimization required to run on a smaller amount of resources.</p>
-<p>Moore's Law had been the guiding principle for the advancement of these CPUs. However, the demands of AI computations quickly exceeded the capabilities of these CPU architectures which caused much slower progress than originally anticipated by Minsky.</p>
-<p>The birth of the Graphics Processing Unit (GPU) by Nvidia in 1999 marked a significant shift in this trajectory. Initially used to accelerate 3D graphics for PC video games, GPUs offloaded computational work from the CPU, enhancing processing speeds. However, their application in AI model training wasn't recognized until a decade later.</p>
-<p>In 2009, this understanding began to change, marking a turning point in the AI hardware landscape. Geoffrey Hinton, a pioneer in the field of artificial intelligence, recommended the use of GPUs for model training. Simultaneously, Stanford University researchers Rajat Raina, Anand Madhavan, and Andrew Ng illustrated the superior computational power of modern GPUs compared to multi-core CPUs in deep learning applications (Raina et al., 2009). With the foresight of GPUs' potential impact, Hinton boldly labeled them as "the future of machine learning." This marked the beginning of an acceleration in the AI hardware landscape, far surpassing the incremental advancements predicted by Moore's Law.</p>
-<p>The tipping point arrived in 2012 with the advent of AlexNet, a groundbreaking neural network model developed by Hinton and his student Alex Krizhevsky. Powered by Nvidia's GPU hardware, AlexNet won the ImageNet competition by delivering a record-setting image recognition accuracy (Jotrin Electronics, 2022). This marked a paradigm shift and solidified GPUs as the gold standard in the AI landscape.</p>
-<p>Yet, the extent of AI's growing computational needs remained unpredictable. According to OpenAI's 2018 analysis, before 2012, using GPUs for machine learning (ML) was uncommon, which made the realization of such breakthroughs rare. Between 2012 and 2014, infrastructure to train on multiple GPUs was scarce. Thus, most results involved only 1-8 GPUs. The period from 2014 to 2016 saw the use of 10-100 GPUs with higher compute ratings. However, larger training runs had limited value due to diminishing returns on data parallelism (Amodei &amp; Hernandez, 2018).</p>
-<p>The period from 2016 to 2017, however, witnessed a leap in computational efficiency. Methods allowing for greater algorithmic parallelism, such as huge batch sizes, architecture search, and expert iteration, were developed. Coupled with the advent of specialized hardware like Tensor Processing Units (TPUs), a specialized version of the NPU, and faster interconnects, these developments greatly increased the computational limits, at least for some applications (Amodei &amp; Hernandez, 2018).</p>
-<p>In the meantime, hardware has become the silent workhorse in the AI world, defining the speed and efficiency of both model training and deployment. The hardware's choice can significantly affect an AI model's learning curve, influencing how quickly it can digest and learn from data. Furthermore, the hardware used in deployment impacts the speed at which these AI models can produce predictions and respond to inputs, a critical factor in many real-time applications.</p>
-<p>Despite the increased optimization potential of GPUs, engineers are challenged with fitting more capabilities into ever-shrinking spaces. Around 2018, AI-assisted chip design emerged as a solution to this challenge, with companies like Synopsis incorporating task-specific ML models, such as the Fusion Compiler. These companies utilized Design Space Exploration (DSE) and Electronic Design Automation (EDA) technologies that have been in use for decades. This area's research advanced steadily until both Google and Synopsys created a buzz around AI-powered chip design.</p>
-<p>On April 3rd, 2020 Google posted a blog post titled 'Chip Design with Deep Reinforcement Learning'. In this short post, they outlined a framework to teach an algorithm how to optimize chip design through a game framework. They made the claim that "this method is the first chip placement approach that has the ability to generalize" (Goldie &amp; Mirhoseini, 2020). The AI generated designs are "comparable or superior" to humans but can be generated much more rapidly (Vincent, 2021). Synopsis later announced DSO.ai, the "worlds first autonomous AI application for chip design" ("Synopsys," n.d.). AI powered chip design has the power to drastically lower the cost of chip manufacturing and further democratizing the technology to the masses. A 2021 Forbes article estimated that the chip design process could shrink from 2-3 months to 2-3 weeks (Freund, 2021).</p>
-<p>To further add complexity, the COVID-19 pandemic in 2020 introduced a surge in demand for consumer electronics following several years of delcine (Kaur, 2021). This demand coupled with constraints on supply due to lockdowns and other bottlenecks caused a chip shortage, specifically with GPUs, that still continues at the time of writing. Innvoations in semiconductor production have elevated to a much higher priority.</p>
+<p>The term "artificial intelligence" was first used by scientists John McCarthy, Claude Shannon, and Marvin Minsky at the Dartmouth Conference in 1956. With optimistic expectations for the field's potential, Minsky boldly proclaimed in 1970 that machines with average human intelligence would exist in the near future. The hype surrounding this forecast ignited an investment wave that lasted over a decade and culminated in an AI bubble. However, when this bubble burst in the early 1980s, AI development regressed back to research labs, and the field entered what is now referred to as the "AI Winter". (Jotrin Electronics, 2022).</p>
+<p>In the early years of computer hardware development, Central Processing Units (CPUs) were the primary source of innovation around computing capabilities. Moore's Law had been the guiding principle for the advancement of these CPUs, predicting a steady pace of growth. However, the demands of AI computations quickly exceeded the capabilities of these CPU architectures, resulting in much slower progress than originally anticipated by Minsky.</p>
+<p>The advent of the Graphics Processing Unit (GPU) by Nvidia in 1999 marked a significant change in the computing landscape. Initially used for 3D graphics in video games, their potential in AI model training wasn't recognized until a decade later. The use of GPUs for model training marked an acceleration in AI hardware, far surpassing the advancements predicted by Moore's Law.</p>
+<p>This acceleration reached a tipping point in 2012 with the advent of AlexNet, a groundbreaking neural network model powered by Nvidia's GPU hardware. AlexNet won the ImageNet competition by delivering a record-setting image recognition accuracy (Amodei &amp; Hernandez, 2018).</p>
+<p>The use of hardware in AI has since become a key factor in the speed and efficiency of model training and deployment. In response to the limitations of GPUs, AI-assisted chip design emerged around 2018, leading to innovations like Google's framework for optimizing chip design through a game framework (Goldie &amp; Mirhoseini, 2020) and Synopsis's DSO.ai, the "world's first autonomous AI application for chip design" ("Synopsys," n.d.).</p>
+<p>The ongoing global chip shortage, which began with the COVID-19 pandemic in 2020, further underscores the need for innovations in semiconductor production. This shortage and the accompanying surge in demand for consumer electronics have elevated the priority of smarter semiconductor manufacturing, setting the stage for significant advancements in AI hardware between 2021 and 2023 (Appenzeller, Bornstein, &amp; Casado, 2023).</p>
 
 </div>
 </div>
@@ -14713,7 +14706,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>As we entered the new decade, the stage was set for AI hardware to take a giant leap forward. Not only was the true power about to be put to the test with the first version of Machine Learning Performance benchmark tests (MLPerf v1.0) on the horizon, there was significant capital allocated to AI hardware development. The amount of capital invested in AI hardware companies globally almost doubled from 36 billion USD in 2020 to 68 billion USD in 2021. Market research reports later found that in 2021 the highest demand in AI hardware was for processors (65%) rather than storage or network devices (Precedence Research, 2022). The only issue with that is while processing power is clearly outperforming expectations, network and storage devices are increasingly the bottleneck of even greater performance (Vellante &amp; Floyer, 2021).</p>
+<p>AI hardware development received considerable investment in 2021. The amount of capital invested in AI hardware companies globally almost doubled from 36 billion USD in 2020 to 68 billion USD in 2021. Market research reports later found that in 2021 the highest demand in AI hardware was for processors (65%) rather than storage or network devices (Precedence Research, 2022). The only issue with that is while processing power is clearly outperforming expectations, network and storage devices are increasingly the bottleneck of even greater performance (Vellante &amp; Floyer, 2021).</p>
 
 </div>
 </div>
@@ -14726,16 +14719,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://www.precedenceresearch.com/insightimg/Artificial-Intelligence-in-Hardware-Market-Share-By-Type-2021.jpg" width="400">
-    </td>
-    <td align="center">
-      <img src="https://d2axcg2cspgbkk.cloudfront.net/wp-content/uploads/Breaking-Analysis_-Moores-Law-is-Accelerating-and-AI-is-Ready-to-Explode-3.jpg" width="400">
-    </td>
-  </tr>
-</table>
+    <div style="display: flex; justify-content: center;">
+        <img src="https://www.precedenceresearch.com/insightimg/Artificial-Intelligence-in-Hardware-Market-Share-By-Type-2021.jpg" width="400" style="margin-right: 10px;">
+        <img src="https://d2axcg2cspgbkk.cloudfront.net/wp-content/uploads/Breaking-Analysis_-Moores-Law-is-Accelerating-and-AI-is-Ready-to-Explode-3.jpg" width="400" style="margin-left: 10px;">
+    </div>
 </div>
 </div>
 </div>
@@ -14752,11 +14739,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p>March saw a landmark collaboration between Nvidia and Harvard, with the development of an AI toolkit called AtacWorks. This toolkit was a testament to Nvidia's determination to tailor AI hardware to handle complex tasks such as genome analysis, thus significantly reducing associated costs and time (Sharma, 2021).</p>
 <p>The Nvidia Grace CPU was announced in April, the company's first data center CPU, was designed to address the computational requirements of advanced applications such as natural language processing, recommender systems, and AI supercomputing that analyze large datasets. Grace combined energy-efficient Arm CPU cores with a unique low-power memory subsystem to deliver high performance with remarkable efficiency. This Arm-based processor aimed to provide a ten-fold performance increase for systems training large AI models, compared to leading servers at the time. Notably, the Swiss National Supercomputing Centre (CSCS) and the U.S. Department of Energy’s Los Alamos National Laboratory have plans to build Grace-powered supercomputers to support scientific research efforts (Nvidia, 2021).</p>
 <p>In May, Google announced the introduction of their fourth-generation TPUs, for AI and ML workloads. TPUs, designed specifically to optimize AI computation, stood as Google's response to the rising dominance of GPUs. Another major announcement came from Berkeley Lab’s National Energy Research Scientific Computing Center (NERSC), the Perlmutter supercomputer, built by HPE in collaboration with Nvidia and AMD features around 6,159 Nvidia A100 GPUs and roughly 1,500 AMD Milan CPUs, collectively providing an impressive 3.8 exaflops of theoretical "AI performance". It has since been instrumental in mapping the visible universe spanning 11 billion light years by processing data from the Dark Energy Spectroscopic Instrument (DESI), with early benchmarking revealing up to 20X performance speedups using the GPUs, thus reducing computational timeframes from weeks or months to merely hours (HPC Wire, 2021).</p>
-<p>June brought another pivotal development when Mythic launched an AI processor that required ten times less power than a conventional system-on-chip or GPU. This introduction marked a shift towards creating more energy-efficient hardware solutions for AI, an important consideration as energy costs and environmental impacts become more of a concern (Sharma, 2021). Google published a paper in Nature detailing their approach to using AI for the floorplanning stage of chip design (Mirhoseini et al., 2021). This paper was the formalization of their 2020 blog post about AI powered chip design and made the findings more transparent. They also revealed that their fourth generation TPU, released just one month earlier, was designed using this new deep reinforcement learning technique (Vincent, 2021).</p>
+<p>June brought another pivotal development when Mythic launched an AI processor that required ten times less power than a conventional system-on-chip or GPU. This introduction marked a shift towards creating more energy-efficient hardware solutions for AI, an important consideration as energy costs and environmental impacts become more of a concern (Sharma, 2021). Google published a paper in Nature detailing their approach to using AI for the floor planning stage of chip design (Mirhoseini et al., 2021). This paper was the formalization of their 2020 blog post about AI powered chip design and made the findings more transparent. They also revealed that their fourth generation TPU, released just one month earlier, was designed using this new deep reinforcement learning technique (Vincent, 2021).</p>
 <p>Following the excitement of AI powered chip design in June, July brought the release of the Cerebrus platform from Cadence. The Cerebrus Intelligent Chip Explorer tool leverages ML to enhance the process of chip design, making engineers remarkably more productive. The introduction of ML has added an additional layer of automation to the design process, resulting in up to 10 times improved productivity per engineer and yielding a 20% enhancement in power, performance, and chip area (Takahashi, 2021).</p>
-<p>In October, Apple also continued upgrades to the M1 series chips released only a year earlier and already touted as the most powerful chips Apple had ever built. Most notably, both the M1 Pro and M1 Max chips came equipped with the standard 16-core Neural Engine but further ehnanced for accelerating on-device ML, indicative of Apple's investment in advancing ML technology through their existing products ("Introducing M1 Pro and M1 Max," 2021). While Apple is not traditionally viewed as a trailblazer in the AI domain, the company has been concentrating on enhancing on-device inference capabilities, a concept known as Edge AI. This approach prioritizes deploying AI applications on devices within the physical world, shifting away from reliance on a centralized cloud server.</p>
+<p>In October, Apple also continued upgrades to the M1 series chips released only a year earlier and already touted as the most powerful chips Apple had ever built. Most notably, both the M1 Pro and M1 Max chips came equipped with the standard 16-core Neural Engine but further enhanced for accelerating on-device ML, indicative of Apple's investment in advancing ML technology through their existing products ("Introducing M1 Pro and M1 Max," 2021). While Apple is not traditionally viewed as a trailblazer in the AI domain, the company has been concentrating on enhancing on-device inference capabilities, a concept known as Edge AI. This approach prioritizes deploying AI applications on devices within the physical world, shifting away from reliance on a centralized cloud server.</p>
 <p>November showcased advancements from both Nvidia and Amazon. Nvidia announced Omniverse Avatar, a platform harnessing AI hardware capabilities to create real-time interactive avatars, signifying an innovative use of AI hardware. Simultaneously, Amazon unveiled its Graviton3 processors for AI inferencing, illustrating an industry trend towards using AI-specific processors for distinct tasks such as inference (Sharma, 2021).</p>
-<p>The year 2021 was also an exciting year for AI chip manufacturing startups. In April, Cerebras Systems unveiled an AI supercomputing processor containing an unprecedented 2.6 trillion transistors called WSE-2. This powerful computational device underscores the intensifying demand for advanced AI hardware to keep up with the increasingly intricate tasks (source). In June, Mythic announced the M1076 25 TOPS AI processor which is capbable of storing up to 80 million weighted parameters which means that it can run complext AI models without the need for external memory (Mitchell, 2021).</p>
+<p>The year 2021 was also an exciting year for AI chip manufacturing startups. In April, Cerebras Systems unveiled an AI supercomputing processor containing an unprecedented 2.6 trillion transistors called WSE-2. This powerful computational device underscores the intensifying demand for advanced AI hardware to keep up with the increasingly intricate tasks (source). In June, Mythic announced the M1076 25 trillion operations per second (TOPS) AI processor which is capable of storing up to 80 million weighted parameters which means that it can run complex AI models without the need for external memory (Mitchell, 2021).</p>
 
 </div>
 </div>
@@ -14814,7 +14801,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <tr>
 <td>AI Powered Chip Design</td>
 <td>Google</td>
-<td>AI for floorplanning stage of chip design</td>
+<td>AI for floor planning stage of chip design</td>
 </tr>
 <tr>
 <td>Cerebrus Platform</td>
@@ -14870,11 +14857,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Throughout 2022, the AI hardware landscape saw an array of impressive launches from leading tech companies and startups alike. Nvidia announced the release of their new DGX Station, DGX-1, and DGX-2 built on state-of-the-art Volta GPU architecture (Gupta, 2022). The system includes the DGX A100, the flagship chip of Nvidia designed for data centres. The chip has integrated eight GPUs and has a GPU memory of 640 GB. Nvidia also announced the release of the H100 data center GPU, the flagship product for the new Hopper architecture. All of these components are specifically designed for deep learning training, accelerated analytics, and inference (Fu, 2022).</p>
-<p>Just one year after Google made their research and methods for incorporating AI into chip design, Nvidia announced their own incorpriation of AI called 'PrefixRL'. Similar methods of reinforcement learning were incorporated into their new Hopper architecture resulting in circuits 25% smaller than those designed by humans with standard EDA tools (Roy, Raiman, &amp; Godil, 2023). Around the same time, an internal struggle emerged at Google questioning the accuracy of findings in their original paper published in 2021 (Dave, 2022).</p>
+<p>Throughout 2022, the AI hardware landscape saw an array of impressive launches from leading tech companies and startups alike. Nvidia announced the release of their new DGX Station, DGX-1, and DGX-2 built on state-of-the-art Volta GPU architecture (Gupta, 2022). The system includes the DGX A100, the flagship chip of Nvidia designed for data centers. The chip has integrated eight GPUs and has a GPU memory of 640 GB. Nvidia also announced the release of the H100 data center GPU, the flagship product for the new Hopper architecture. All of these components are specifically designed for deep learning training, accelerated analytics, and inference (Fu, 2022).</p>
+<p>Just one year after Google made their research and methods for incorporating AI into chip design, Nvidia announced their own incorporation of AI called 'PrefixRL'. Similar methods of reinforcement learning were incorporated into their new Hopper architecture resulting in circuits 25% smaller than those designed by humans with standard EDA tools (Roy, Raiman, &amp; Godil, 2023). Around the same time, an internal struggle emerged at Google questioning the accuracy of findings in their original paper published in 2021 (Dave, 2022).</p>
 <p>Intel’s Habana Labs released the second generation of their deep learning processors for training and inference — Habana Gaudi2 (Gupta, 2022). IBM launched their first Telum Processor-based system, IBM z16, aimed at improving performance and efficiency for large datasets and featuring on-chip acceleration for AI inference (Fu, 2022).</p>
-<p>In March and June, Apple also made significant strides in their hardware capabilities, unveiling the M1 Ultra and M2 chip, both next-generation enhancements of their breakthrough M1 chip. The M1 Ultra doubled the number of previous of neural engine cores from 16 to 32 ("Apple unveils M1 Ultra," 2022). The new mac standard neural engine in M2 can process up to 15.8 trillion operations per second, 40% faster than the prior year. ("Apple unveils M2," 2022).</p>
-<p>In July, IBM and Tokyo Electron made strides in 3D chip stacking, innovatively addressing the limitations posed by Moore's law. Silicon carrier wafers, a significant obstacle in 3D chip manufacturing, were at the core of their challenges. The advancements they've introduced are designed to optimize the production process, with the added advantage of potentially alleviating the global chip shortage (Peckham, 2022).</p>
+<p>In March and June, Apple also made significant strides in their hardware capabilities, unveiling the M1 Ultra and M2 chip, both next-generation enhancements of their breakthrough M1 chip. The M1 Ultra doubled the number of previous of neural engine cores from 16 to 32 ("Apple unveils M1 Ultra," 2022). The new mac standard neural engine in M2 can process up to 15.8 TOPS, 40% faster than the prior year. ("Apple unveils M2," 2022).</p>
+<p>In July, IBM and Tokyo Electron made strides in 3D chip stacking by addressing the limitations posed by Moore's law. Silicon carrier wafers, a significant obstacle in 3D chip manufacturing, were at the core of their challenges. The advancements they've introduced are designed to optimize the production process, with the added advantage of potentially alleviating the global chip shortage (Peckham, 2022).</p>
 <p>By mid-2022 we had a pretty good understanding of the state of the market for the prior year and where things were headed. The AI hardware market was valued at 10 billion USD in 2021 and was projected to grow to almost 90 billion USD by 2030 (Precedence Research, 2022).</p>
 
 </div>
@@ -14901,8 +14888,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>On AI Day in September, Tesla revealed its powerful Dojo chip, designed for faster training and inference in self-driving cars (Gupta, 2022). AMD, though not traditionally focused on AI, released Zen 4, a new version of their Zen microarchitecture built on a 5 nm architecture, and introduced a new line of PC processors for ML capabilities (Fu, 2022). Meanwhile, Cerebras Systems launched their AI supercomputer, Andromeda, aiming to accelerate academic and commercial research (Gupta, 2022). In the same vein, SambaNova Systems announced the shipping of the second generation of the DataScale system—SN30. The system, powered by the Cardinal SN30 chip, is built for large models with more than 100 billion (100B) parameters and capable of handling both 2D and 3D images (Fu, 2022).</p>
-<p>The 2022 AI Hardware Summit in September showcased the emergent trend of Edge AI, pointing out its potential as a major avenue for growth and performance improvement. Edge AI has seen remarkable advancement due to the maturation of deep learning and enhanced computing power. Edge AI has enormous advantages such as reduced latency, better privacy, and reduced energy consumption [source]. Furthermore, a noticeable shift was identified toward TPUs in Edge AI, with more vendors beginning to adopt TPUs as AI accelerators. The Summit also highlighted how AI chips have now advanced to the level of detecting human emotions, emphasizing the impressive strides being made in object detection. One of the key themes of the Summit was the rise of foundation models in AI, signaling a new era in AI development. These models, trained on massive amounts of data and adapted for multiple applications, have started to replace the task-specific models that previously dominated the AI landscape. Although still relatively nascent and not entirely understood, foundation models have shown tremendous potential and are being deployed at scale [source].</p>
-<p>In October, AWS announced the general availability of Amazon EC2 Trn1 instances, which are powered by AWS Trainium chips, build specifically for training high-performance ML applications in the cloud. Trn1 instances claim up to a 50% cost savings over comparable GPU-based EC2 instances for training large language models (Amazon Web Services, 2022). A month later, at AWS re:Invent 2022, Amazon EC2 Inf2 were made generally available powered by the AWS Inferentia2, an ML accelerater optimized for inference. Inf2 boasts the ability to deploy a 175B parameter model, such as GPT-3, in a single server. These two chip architectures represent a shift from using general purpose hardware to using hardware custom built to the specific phase of the system  (Liu, 2022).</p>
+<p>The 2022 AI Hardware Summit in September showcased the emergent trend of Edge AI, pointing out its potential as a major avenue for growth and performance improvement. Edge AI has seen remarkable advancement due to the maturation of deep learning and enhanced computing power. Edge AI has enormous advantages such as reduced latency, better privacy, and reduced energy consumption. Furthermore, a noticeable shift was identified toward TPUs in Edge AI, with more vendors beginning to adopt TPUs as AI accelerators. The Summit also highlighted how AI chips have now advanced to the level of detecting human emotions, emphasizing the impressive strides being made in object detection (Fu, 2022).</p>
+<p>In October, AWS announced the general availability of Amazon EC2 Trn1 instances, which are powered by AWS Trainium chips, build specifically for training high-performance ML applications in the cloud. Trn1 instances claim up to a 50% cost savings over comparable GPU-based EC2 instances for training large language models (Amazon Web Services, 2022). A month later, at AWS re:Invent 2022, Amazon EC2 Inf2 were made generally available powered by the AWS Inferentia2, an ML accelerator optimized for inference. Inf2 boasts the ability to deploy a 175B parameter model, such as GPT-3, in a single server. These two chip architectures represent a shift from using general purpose hardware to using hardware custom built to the specific phase of the system  (Liu, 2022).</p>
 <p>The November 2022 release of ChatGPT by OpenAI has highlighted the essential role of hardware in driving AI performance. The high-level functionality of ChatGPT demands significant memory and storage capacity. For instance, this system was trained on an extensive network of 10,000 Nvidia A100 HPC (high-performance computing) accelerators, each of which is a $12,500 tensor core GPU (Kandel, 2023). A case in point is the third version of GPT, GPT-3, which features an astounding 175B parameters and calls for a data capacity of 45 terabytes during its training stage. Training these large models often requires specialized hardware and would not be possible without prior advancements in GPUs or TPUs that can handle a large amount of data and perform parallel computations. Moreover, the inference stage often requires powerful servers for hosting the models, as well as efficient hardware capable of quickly processing requests in real-time.  The success of ChatGPT underscores the intertwined relationship between AI software and hardware advancements, where each drives progress in the other.</p>
 
 </div>
@@ -14924,7 +14911,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </thead>
 <tbody>
 <tr>
-<td>DGX Station, DGX-1, and DGX-2, DGX-A100</td>
+<td>DGX Station, DGX-1, DGX-2, DGX-A100</td>
 <td>Nvidia</td>
 <td>AI supercomputers built on Volta GPU architecture for deep learning, analytics and inference</td>
 </tr>
@@ -14944,14 +14931,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <td>First Telum Processor-based system, for improving performance and efficiency for large datasets, features on-chip acceleration for AI inference</td>
 </tr>
 <tr>
+<td>M1 Ultra, M2</td>
+<td>Apple</td>
+<td>32-core pro model neural engine, 40% faster standard Neural Engine over previous year, 15.8 trillion operations per second</td>
+</tr>
+<tr>
 <td>3D Breakthroughs</td>
 <td>IBM/T.E.</td>
 <td>3D chip enabled silicon carrier wafers</td>
-</tr>
-<tr>
-<td>Zen 4</td>
-<td>AMD</td>
-<td>Microarchitecture built on a 5 nm architecture, introduced for ML capabilities</td>
 </tr>
 <tr>
 <td>Dojo Supercomputer</td>
@@ -14959,14 +14946,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <td>Revealed for faster training and inference in self-driving cars, claims to outperform multiple GPUs</td>
 </tr>
 <tr>
-<td>Andromeda Supercomputer</td>
-<td>Cerebras Systems</td>
-<td>Combines 16 Cerebras CS-2 systems for academic and commercial research, performs one quintillion operations per second</td>
+<td>Zen 4</td>
+<td>AMD</td>
+<td>Microarchitecture built on a 5 nm architecture, introduced for ML capabilities</td>
 </tr>
 <tr>
-<td>EC2 Trn1, EC2 Inf2</td>
-<td>AWS</td>
-<td>Cloud instances powered by latest Trainium, Inferentia chips, built specifically for training &amp; inference</td>
+<td>Andromeda Supercomputer</td>
+<td>Cerebras Systems</td>
+<td>Combines 16 Cerebras CS-2 systems for academic and commercial research, performs one quintillion OPS</td>
 </tr>
 <tr>
 <td>SN30 Datascale</td>
@@ -14974,9 +14961,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <td>Second generation of the DataScale system, powered by Cardinal SN30 chip, built for large models with more than 100B parameters</td>
 </tr>
 <tr>
-<td>M1 Ultra, M2</td>
-<td>Apple</td>
-<td>32-core pro model neural engine, 40% faster standard Neural Engine over previous year, 15.8 trillion operations per second</td>
+<td>EC2 Trn1, EC2 Inf2</td>
+<td>AWS</td>
+<td>Cloud instances powered by latest Trainium, Inferentia chips, built specifically for training &amp; inference</td>
 </tr>
 </tbody>
 </table>
@@ -15012,7 +14999,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p>Meta made its foray into AI hardware by unveiling its first custom-designed chips, the Meta Training and Inference Accelerator (MTIA) and the Meta Scalable Video Processor (MSVP). These chips, optimized for deep learning and video processing, underpin Meta's plans for a next-gen data center optimized for AI, illustrating its dedication to crafting a fully integrated AI ecosystem (Khare, 2023).</p>
 <p>Although Nvidia currently has 90% AI computing market share, companies like Cerebras, AMD, Intel, IBM, and another startup called Groq are determined to chip away at that lead. Groq is a startup founded by a former Google engineer in 2016 but gained recent attention by claiming that it had created a process to move Meta's LLaMA from Nvidia chips over to its own hardware. The complexity of the current AI hardware makes it a tedious task to adapt model architectures to run quickly on new setups (Lee &amp; Nellis, 2023).</p>
 <p>While these advancements in 2023 are indeed significant, it's important to note that the AI Hardware Summit for the year is yet to occur, indicating that we don't have the full picture of all the developments in the field for this year. As such, the current state of AI hardware in 2023 should be viewed as a work in progress, awaiting further updates and advancements.</p>
-<p>In regards to AI chip design, the four major players continue to be Synopsis, Cadence, Google, and Nvidia. Althought there haven't been any significant announcements made this year about a new AI designed chips, there is a shifting sentiment that this movement is going more mainstream due to the increase in customer contracts being reported by Synopsis and Cadence. (Ward-Foxton, 2023).</p>
+<p>In regards to AI chip design, the four major players continue to be Synopsis, Cadence, Google, and Nvidia. Although there haven't been any significant announcements made this year with regard to AI designed chips, there is a shifting sentiment that this movement is going more mainstream due to the increase in customer contracts being reported by Synopsis and Cadence. (Ward-Foxton, 2023).</p>
 
 </div>
 </div>
@@ -15024,7 +15011,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<table>
+<h3 id="Hardware-Summary-2023">Hardware Summary 2023<a class="anchor-link" href="#Hardware-Summary-2023">&#182;</a></h3><table>
 <thead><tr>
 <th>Hardware</th>
 <th>Company</th>
@@ -15032,6 +15019,26 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Google Cloud TPU v4</td>
+<td>Google</td>
+<td>Exascale ML performance, 4096 chips, dynamic OCS reconfigurability, hardware support for embeddings, 3D torus interconnect</td>
+</tr>
+<tr>
+<td>Interactive LLMs and Assistants</td>
+<td>Google (BARD), Microsoft (Bing AI)</td>
+<td>Large-scale models designed for interactive and responsive tasks, leveraging the power and efficiency of the latest AI hardware</td>
+</tr>
+<tr>
+<td>M2 Ultra</td>
+<td>Apple</td>
+<td>32-core neural engine, 31.6 TOPS</td>
+</tr>
+<tr>
+<td>Nvidia Grace CPU Superchips in Isambard 3</td>
+<td>Nvidia</td>
+<td>384 Arm-based Nvidia Grace CPU Superchips, &gt;55,000 cores, FP64 performance, &lt;270 kW power consumption, Arm Neoverse V2 cores</td>
+</tr>
 <tr>
 <td>Meteor Lake chips with Vision Processing Units (VPUs)</td>
 <td>Intel</td>
@@ -15046,26 +15053,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <td>Meta Training and Inference Accelerator (MTIA) and Meta Scalable Video Processor (MSVP)</td>
 <td>Meta</td>
 <td>Unveiled custom-designed AI chips optimized for deep learning and video processing and discussed plans for a next-gen data center optimized for AI</td>
-</tr>
-<tr>
-<td>M2 Ultra</td>
-<td>Apple</td>
-<td>32-core neural engine, 31.6 trillion operations per second</td>
-</tr>
-<tr>
-<td>Google Cloud TPU v4</td>
-<td>Google</td>
-<td>Exascale ML performance, 4096 chips, dynamic OCS reconfigurability, hardware support for embeddings, 3D torus interconnect</td>
-</tr>
-<tr>
-<td>Nvidia Grace CPU Superchips in Isambard 3</td>
-<td>Nvidia</td>
-<td>384 Arm-based Nvidia Grace CPU Superchips, &gt;55,000 cores, FP64 performance, &lt;270 kW power consumption, Arm Neoverse V2 cores</td>
-</tr>
-<tr>
-<td>Interactive LLMs</td>
-<td>Google (BARD), Microsoft (Bing AI)</td>
-<td>Large-scale models designed for interactive and responsive tasks, leveraging the power and efficiency of the latest AI hardware</td>
 </tr>
 </tbody>
 </table>
@@ -15091,8 +15078,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Traditional CPU performance is gauged by clock speed, often denoted in terahertz (THz), while GPUs and Neural Processing Units (NPUs) measure their comprehensive computational power, referred to as "bulk compute," primarily in variants of floating point operations per second (FLOPS), including trillions of operations per second (TOPS). While these metrics have provided rough indications of computational power growth, they do not correlate directly with intricate tasks like training or inferring from ML models. Here, additional factors, such as algorithmic efficiency, data input/output speeds, memory architecture, and power efficiency, come into play. It's important to understand that these per-second metrics typically represent the system's "bulk compute," meaning the total computational capacity across all tasks and processes. However, the effective use of this bulk compute for specific ML tasks can be constrained by various factors and requriments. Training a large language model has highly specialized requirments compared to a small model used for inference on a mobile device.</p>
-<p>Focusing solely on CPU power or transistor count fails to capture the true extent of recent progress in AI compute. Take, for example, Apple's NPU, also known as the "neural engine." The performance of these chips, measured in TOPS, has seen year-on-year improvements of over 100%, outpacing the progression in their CPU and GPU counterparts. The chart below overlays the historical processing power of Apple's iPhone chips, highlighting the distinct growth trend of the NPU (Vellante &amp; Floyer, 2021).</p>
+<p>Traditional CPU performance is gauged by clock speed, often denoted in terahertz (THz), while GPUs and Neural Processing Units (NPUs) measure their comprehensive computational power, referred to as "bulk compute," primarily in variants of floating point operations per second (FLOPS) or TOPS. Focusing solely on CPU power or transistor count fails to capture the true extent of recent progress in AI compute. Take, for example, Apple's NPU, also known as the "neural engine." The performance of these chips has seen year-on-year improvements of over 100%, outpacing the progression in their CPU and GPU counterparts. The chart below overlays the historical processing power of Apple's iPhone chips, highlighting the distinct growth trend of the NPU (Vellante &amp; Floyer, 2021).</p>
 
 </div>
 </div>
@@ -15117,10 +15103,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Prior to all these recent advancements, OpenAI in a 2018 publication asserted that three measurable components of an AI system reflect AI's progress over time: algorithmic innovation, data, and available compute for training. While the former two pose challenges in their temporal tracking, compute emerges as a consistent and quantifiable metric. Measurements of compute typically revolve around operations per second or floating-point operations per second (FLOPS). According to OpenAI, the most accurate reflection of AI advancement hinges on the measure of operations per second, especially concerning model training (Amodei &amp; Hernandez, 2018).</p>
-<p>Moore's Law has long served as a benchmark for the progress of computational power. Initially conceived by Intel's co-founder Gordon E. Moore in the mid-1970s as an updated prediction from the previous decade, Moore's Law was not a scientific law per se but a speculative extrapolation of technological progress. At the heart of it was the simple physics that smaller transistors equated to faster and more power-efficient operations. The economics, in turn, pointed out that the reduced size meant cheaper production costs per transistor, fueling the cycle of progress (McKenzie, 2023).</p>
+<p>OpenAI in a 2018 publication asserted that three measurable components of an AI system reflect AI's progress over time: algorithmic innovation, data, and available compute for training. OpenAI concurred that the most accurate reflection of AI advancement hinges on the measure of operations per second, which is even more relevant to model training (Amodei &amp; Hernandez, 2018).</p>
 <p>For decades, Moore's law successfully correlated with not only the growth trend in transistor count but also the advancement in ML when measured by compute. Yet, with the onset of recent tech innovations, this relationship has shown signs of strain. As we moved into the 2020s, the technology community began questioning the continued relevance of Moore's Law. Influential pieces, like "We're not prepared for the end of Moore's Law" (Hoffman, 2020), published in the MIT Technology Review, cast doubts over the longevity of this once-dependable guideline in relation to its prediction of transistor count. On the other hand, some argued that Moore's Law was not dead, but its definition needed broadening. It was clear that we needed more comprehensive metrics to gauge computing advancements and accurately predict future trajectories.</p>
-<p>The charts below illustrate how the growth in computational demand for different AI models has veered ahead of Moore's Law since 2012. The compute utilized in AI training has swelled by over 300,000 times, with a doubling time of merely 3.4 months. If progress had adhered strictly to Moore's Law, the increase would have been limited to a factor of seven. These charts suggest we have truly entered a new era in the pace of AI compute evolvement more closely aligning with the 'stacked exponential' described by Sweeny.</p>
+<p>The charts below illustrate how the growth in computational demand for different AI models has veered ahead of Moore's Law since 2012. The compute utilized in AI training has swelled by over 300,000 times, with a doubling time of merely 3.4 months. If progress had adhered strictly to Moore's Law, the increase would have been limited to a factor of seven (Amodei &amp; Hernandez, 2018). These charts suggest we have truly entered a new era in the pace of AI compute evolvement more closely aligning with the 'stacked exponential' described by Sweeney.</p>
 
 </div>
 </div>
@@ -15133,29 +15118,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2F86778ff808061547b22637c2437454ef%2Fai-and-compute-all.png?generation=1687738766744537&alt=media" width="400">
-    </td>
-    <td align="center">
-      <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2F9574381efab68a160ffbfb6297e69b83%2Fai-and-compute-modern-log.png?generation=1687738839069138&alt=media" width="400">
-    </td>
-  </tr>
-</table>
+    <div style="display: flex; justify-content: center;">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2F86778ff808061547b22637c2437454ef%2Fai-and-compute-all.png?generation=1687738766744537&alt=media" width="400" style="margin-right: 10px;">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2F9574381efab68a160ffbfb6297e69b83%2Fai-and-compute-modern-log.png?generation=1687738839069138&alt=media" width="400" style="margin-left: 10px;">
+    </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Apart from FLOPS or TOPS there are several benchmarks that are commonly used today to evaluate the performance of ML/AI hardware specifically. MLPerf is one of the most popular of the last two years (MLCommons, 2023). Developed by a consortium of tech companies in 2018, MLPerf benchmarks measure the speed of ML software and hardware. MLPerf specifically looks at training and inference performance, scalability, and power performance across the hardware landscape according to the requirements of the specific model or task.</p>
-
 </div>
 </div>
 </div>
@@ -15177,8 +15144,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>This shift to measuring AI progress in terms of compute used per model is important because it captures the nature of ML better than traditional hardware metrics. Unlike bulk compute, the amount of compute used per model isn't constrained by limits on parallelism (both hardware and algorithmic) and so gives a clearer picture of potential AI capabilities.</p>
-<p>Although MLPerf launched in 2018, it wasn't until the very end of 2020 that it was properly scaled and standardized into the ML Commons consortium. This is why the MLPerf tests of 2021 are referred to as MLPerf v1.0. MLPerf consists of eight benchmark tests: image recognition, medical-imaging segmentation, two versions of object detection, speech recognition, natural-language processing, recommendation, and a form of gameplay called reinforcement learning. MLPerf is often referred to as "the Olympics of machine learning" because computers and software from 21 different companies compete on any or all the tests (Moore, 2022). This incentivizes hardware companies like Nvidia to put their best foot forward. The results of the June 2022 MLPerf v2.0 benchmark tests were compared to Moore's law to show the unexpected rate of progress achieved in training times alone. The 2022 MLPerf results showed 9-10x increase in training time performance vs 2018 (Moore, 2022).</p>
+<p>In response to the need for a clear standard for measuring hardware performance across the growing landscape of deep learning processors in 2012, researchers from Baidu, Google, Harvard, Stanford, and Berkeley developed Machine Learning Performance (MLPerf) in 2018. MLPerf is a set of industry-standard metrics that evaluates the speed of ML software and hardware. It specifically assesses training and inference performance, scalability, and power performance, tailoring these assessments to the requirements of each specific model or task (Bunting, 2023).</p>
+<p>Although MLPerf launched in 2018, it wasn't until the very end of 2020 that it was properly scaled and standardized into the ML Commons consortium. The development of these benchmarks came together for their first official debut as MLPerf v1.0 in 2021. MLPerf consists of eight benchmark tests: image recognition, medical-imaging segmentation, two versions of object detection, speech recognition, natural-language processing, recommendation, and a form of gameplay called reinforcement learning. Often referred to as "the Olympics of machine learning", MLPerf features computer hardware and software from 21 different companies competing on any or all the tests (Moore, 2022). This incentivizes hardware companies like Nvidia to put their best foot forward. The results of the June 2022 MLPerf v2.0 benchmark tests were compared to Moore's law to show the unexpected rate of progress achieved in training times alone. The 2022 MLPerf results showed 9-10x increase in training time performance vs 2018 (Moore, 2022).</p>
 
 </div>
 </div>
@@ -15203,7 +15170,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Based on the recent release of the 2023 MLPerf v3.0 results, the pace of AI innovation is not only continuing but accelerating at a rate much faster than previously predicted [source]. Nvidia's AI platform in 2023 has shown a considerable performance increase over its 2022 results, reaffirming Tim Sweeny's statement that AI is "doubling at a rate much faster than Moore’s Law’s 2 years." Nvidia is one of the few companies that has consistently submitted MLPerf results for all eight benchmark tests. Exploring their hardware results shows the evolution of AI compute across the ML landscape.</p>
+<p>Nvidia's AI hardware in the 2023 MLPerf tests (MLPerf v3.0) has shown a considerable performance increase over its 2022 results, reaffirming Tim Sweeney's statement that AI is "doubling at a rate much faster than Moore’s Law’s 2 years." Nvidia is one of the few companies that has consistently submitted MLPerf results for all eight benchmark tests. Exploring their hardware results shows the evolution of AI compute across the ML landscape.</p>
 <p>In 2022, Nvidia's AI platform, powered by the A100 Tensor Core GPU, demonstrated significant versatility and efficiency across all eight MLPerf benchmarks. It achieved the fastest time to train on four out of eight tests and was found to be the fastest on a per-chip basis on six out of the eight tests. This performance was attributed to full-stack innovations spanning GPUs, software, and at-scale improvements, delivering 23x more performance in 3.5 years since the first MLPerf submission (Salvator, 2022).</p>
 
 </div>
@@ -15277,8 +15244,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The rapid development of AI, particularly in the last two years, is a testament to the accelerated evolution of computer technology as it relates to ML compute requirements, well beyond the predictions of Moore's Law. This acceleration, grounded in Sweeny's concept of "stacked exponential acceleration," is bootstrapping on previous advancements to enable new levels of efficiency and capabilities that would have been unimaginable in the past. As AI technologies develop at this remarkable yet unpredictable pace, they bring forth both exceptional opportunities and significant challenges. The progression beyond Moore's predictable pace has some positing that AI could potentially reach, or even surpass, human-level intelligence.</p>
-<p>This fast-paced advancement towards potential human-level AI has stirred up a wide range of perspectives within the AI community. On one hand, figures like Geoffrey Hinton, Elon Musk, and former Google CEO Eric Schmidt urge caution, highlighting ethical and existential risks in the long run (Gairola, 2023). On the other hand, optimists such as Andrew Ng see the potential of superior AI to drive unprecedented advancements and solve global challenges (Cherney, 2023). However, the trajectory of AI's future remains as relevant and uncertain as when pioneers like Samuel Butler and Alan Turing first contemplated it.</p>
+<p>The rapid development of AI, particularly in the last two years, is a testament to the accelerated evolution of computer technology as it relates to ML compute requirements, well beyond the predictions of Moore's Law. This acceleration, grounded in Sweeney's concept of "stacked exponential acceleration," is bootstrapping on previous advancements to enable new levels of efficiency and capabilities that would have been unimaginable in the past. As AI technologies develop at this unpredictable pace, they bring forth both exceptional opportunities and significant challenges. The progression beyond Moore's predictable pace has some positing that AI could potentially reach, or even surpass, human-level intelligence.</p>
+<p>This fast-paced advancement towards advanced AI has stirred up a wide range of perspectives within the AI community. On one hand, figures like Geoffrey Hinton, Elon Musk, and former Google CEO Eric Schmidt urge caution, highlighting ethical and existential risks in the long run (Gairola, 2023). On the other hand, optimists such as Andrew Ng see the potential of superior AI to drive unprecedented advancements and solve global challenges (Cherney, 2023). However, the trajectory of AI's future remains as relevant and uncertain as when pioneers like Samuel Butler and Alan Turing first contemplated it.</p>
 <p>As Samuel Butler posited in his 1863 essay, <em>"It is said that the power of a machine to imitate human skill in any real sense of the words depends on the degree of skill possessed by the designer or constructor, and that unless he knew a thing himself he could not possibly teach it to his machine"</em> (Butler, 1863). Alan Turing, in his seminal work on machine intelligence, echoed this sentiment in his 1950 paper: <em>"'It is said that these machines can only do what we know how to order them to perform', a rather begging of the question. It might also be said that we can only do what machines will allow us to do, for this is equally true"</em> (Turing, 1950).</p>
 <p>Whether or not machines will surpass human intelligence is an age old question. The difference between the hype experienced now vs the 1970's is that we have the compute capability to keep up with the hype, suggesting that we are not in a bubble that would lead to another "AI Winter". A recent report from ARK shows that Neural Networks have the most influential potential as a catalyst for a host of other technologies (ARK Investment Management LLC, 2023).</p>
 
@@ -15305,7 +15272,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Along with this potential for continued innovation surrounding AI, we also have a dramatically different outlook on AI developments by 2030. AI training costs are currently dropping around 70% per year and projected to continue at that same pace (ARK Investment Management LLC, 2023). While we continue to see hardware shortages and specialized GPUs remaining costly (Vanian, 2023), a recent estimate shows that the cost of AI hardware and software, when measured by relative comput unit (RCU), will continue to decline at a consistent rate. This combination of continued innovations will eventually enable applications like ChatGPT to run inferences at such a low cost that it can be deployeable to the level of Google search (ARK Investment Management LLC, 2023).</p>
+<p>Along with this potential for continued innovation surrounding AI, we also have a dramatically different outlook on AI developments by 2030. AI training costs are currently dropping around 70% per year and projected to continue at that same pace (ARK Investment Management LLC, 2023).</p>
 
 </div>
 </div>
@@ -15318,19 +15285,39 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2Fba4c9e69a9df694dbeae52809a7a67b0%2Fcostperinf.png?generation=1687929405926844&alt=media" width="400">
-    </td>
-    <td align="center">
-      <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2F735835fa86dba0aa643ee5b8151a91dd%2Fcosttotrain.png?generation=1687929392429753&alt=media" width="400">
-    </td>
-      <td align="center">
-      <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2Fc0765a4abc3f6c8ff40c97c2473e2639%2Faihardwarecost.png?generation=1687929416513761&alt=media" width="400">
-    </td>
-  </tr>
-</table>
+    <div>
+    <div style="width: 90%;">
+      <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2F735835fa86dba0aa643ee5b8151a91dd%2Fcosttotrain.png?generation=1687929392429753&alt=media">
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>While we continue to see hardware shortages and specialized GPUs remaining costly (Vanian, 2023), a recent estimate shows that the cost of AI hardware and software, when measured by relative compute unit (RCU), will continue to decline at a consistent rate. This combination of continued innovations will eventually enable applications like ChatGPT to run inferences at such a low cost that it can be deployable to the level of Google search (ARK Investment Management LLC, 2023).</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div align="center">
+    <div style="display: flex; justify-content: center;">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2Fcd48cc2bff57085850ae9c8e3fccc874%2Fcostperinf.png?generation=1687972455714214&alt=media" width="400" height="300" style="margin-right: 10px;">
+        <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1506047%2Fc0765a4abc3f6c8ff40c97c2473e2639%2Faihardwarecost.png?generation=1687929416513761&alt=media" width="400" height="300" style="margin-left: 10px;">
+    </div>
 </div>
 </div>
 </div>
@@ -15353,7 +15340,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The AI hardware landscape has changed dramatically throughout the last two years. We have seen significant advancements from companies like Nvidia, Intel, AMD, AWS, OpenAI, Google, Apple, and Meta that have resulted in a dramatically different outlook on computing than the perception coming into the current decade. Looking to the future, innovation will not be defined soley by how quickly we can double the number of transistors on a chip, but rather how the entire system can be optimized through hardware, software, and algorithms for the full range of system requirements. Measuring that progress with task-specific benchmarks like MLPerf will become increasingly more relevant. No longer is every problem or task simply solved with a more powerful CPU, GPU, nor NPU. Significant computational hardware advances seem to be the new normal every year and the current incentives around AI hardware in particular will continue to drive performance innovations at speeds we have not yet experienced in the history of computing.</p>
+<p>The AI hardware landscape has changed dramatically throughout the last two years. We have seen significant advancements from companies like Nvidia, Intel, AMD, AWS, OpenAI, Google, Apple, and Meta that have resulted in a dramatically different outlook on computing than the perception coming into the current decade. Looking to the future, innovation will not be defined solely by how quickly we can double the number of transistors on a chip, but rather how the entire system can be optimized through hardware, software, and algorithms for the full range of system requirements. Measuring that progress with task-specific benchmarks like MLPerf will become increasingly more relevant. No longer is every problem or task simply solved with a more powerful CPU, GPU, nor NPU. Significant computational hardware advances seem to be the new normal every year and the current incentives around AI hardware in particular will continue to drive performance innovations at speeds we have not yet experienced in the history of computing.</p>
 
 </div>
 </div>
@@ -15376,14 +15363,17 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Ali, T. (2018, May 31). IT Hardware Benchmarks for Machine Learning and Artificial Intelligence. Medium. <a href="https://medium.com/@tauheedul/it-hardware-benchmarks-for-machine-learning-and-artificial-intelligence-6183ceed39b8">https://medium.com/@tauheedul/it-hardware-benchmarks-for-machine-learning-and-artificial-intelligence-6183ceed39b8</a></p>
 <p>Amazon Web Services. (2022, October 13). Introducing Amazon EC2 TRN1 Instances for High-Performance, Cost-Effective Deep Learning Training. <a href="https://aws.amazon.com/about-aws/whats-new/2022/10/ec2-trn1-instances-high-performance-cost-effective-deep-learning-training/">https://aws.amazon.com/about-aws/whats-new/2022/10/ec2-trn1-instances-high-performance-cost-effective-deep-learning-training/</a></p>
 <p>Amodei, D., &amp; Hernandez, D. (2018, May 16). AI and Compute. OpenAI. <a href="https://openai.com/research/ai-and-compute/">https://openai.com/research/ai-and-compute/</a></p>
+<p>Appenzeller, G., Bornstein, M., &amp; Casado, M. (2023, April 27). Navigating the high cost of AI compute. Andreessen Horowitz. <a href="https://a16z.com/2023/04/27/navigating-the-high-cost-of-ai-compute/">https://a16z.com/2023/04/27/navigating-the-high-cost-of-ai-compute/</a></p>
 <p>Apple. (2022, June). Apple unveils M2, taking the breakthrough performance and capabilities of M1 even further. Apple Newsroom. <a href="https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/">https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/</a></p>
 <p>Apple Inc. (2021, October 18). Introducing M1 Pro and M1 Max: the most powerful chips Apple has ever built. Apple Newsroom. <a href="https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/">https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/</a></p>
 <p>Apple Inc. (2022, March). Apple unveils M1 Ultra, the world's most powerful chip for a personal computer. Apple Newsroom. <a href="https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/">https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/</a></p>
 <p>Apple Inc. (2023, June). Apple introduces M2 Ultra. Apple Newsroom. <a href="https://www.apple.com/newsroom/2023/06/apple-introduces-m2-ultra/">https://www.apple.com/newsroom/2023/06/apple-introduces-m2-ultra/</a></p>
 <p>ARK Investment Management LLC. (2023, January 31). Big Ideas 2023. <a href="https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARK%20Invest_013123_Presentation_Big%20Ideas%202023_Final.pdf">https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARK%20Invest_013123_Presentation_Big%20Ideas%202023_Final.pdf</a></p>
 <p>Barry, D. J. (2023, April 17). Beyond Moore's Law: New solutions for beating the data growth curve. Microcontroller Tips. <a href="https://www.microcontrollertips.com/beyond-moores-law-new-solutions-beating-data-growth-curve/">https://www.microcontrollertips.com/beyond-moores-law-new-solutions-beating-data-growth-curve/</a></p>
+<p>Bunting, J. (2023, March 14). AI Benchmarks Are Broken. SemiEngineering. <a href="https://semiengineering.com/ai-benchmarks-are-broken/">https://semiengineering.com/ai-benchmarks-are-broken/</a></p>
 <p>Butler, S. (1863). Darwin Among the Machines. In The Notebooks of Samuel Butler.</p>
 <p>Cherney, M. A. (2023, June 6). Andrew Ng says AI poses no extinction risk. Silicon Valley Business Journal. <a href="https://www.bizjournals.com/sanjose/news/2023/06/06/andrew-ng-says-ai-poses-no-extinction-risk.html">https://www.bizjournals.com/sanjose/news/2023/06/06/andrew-ng-says-ai-poses-no-extinction-risk.html</a></p>
 <p>Cuenca, P. (2023, January 25). The Infrastructure Behind Serving DALL-E Mini. Weights &amp; Biases. <a href="https://wandb.ai/dalle-mini/dalle-mini/reports/The-Infrastructure-Behind-Serving-DALL-E-Mini--VmlldzoyMTI4ODAy">https://wandb.ai/dalle-mini/dalle-mini/reports/The-Infrastructure-Behind-Serving-DALL-E-Mini--VmlldzoyMTI4ODAy</a></p>
