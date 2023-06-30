@@ -14756,6 +14756,46 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
+    <h3 style="text-align:center;">Hardware Summary 2021</h3>
+    <table style="border:1px solid black; border-collapse: collapse; text-align:left;">
+        <thead style="background-color: #76B900; color: #333;">
+            <tr>
+                <th style="font-style: italic;">Hardware</th>
+                <th style="font-style: italic;">Company</th>
+                <th style="font-style: italic;">Key Features</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #F8F8F8; color: #333;">
+                <td>DALL-E</td>
+                <td>OpenAI</td>
+                <td>End-to-end text-to-image generative model at scale</td>
+            </tr>
+            <tr style="background-color: #E0E0E0; color: #333;">
+                <td>TensorFlow 3D</td>
+                <td>Google</td>
+                <td>3D scene comprehension for AI model development</td>
+            </tr>
+            <tr style="background-color: #F8F8F8; color: #333;">
+                <td>AtacWorks</td>
+                <td>Nvidia, Harvard</td>
+                <td>AI toolkit for genome analysis</td>
+            </tr>
+            <!-- add the rest of your rows in the same way -->
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Hardware-Summary-2021">Hardware Summary 2021<a class="anchor-link" href="#Hardware-Summary-2021">&#182;</a></h3><table>
 <thead><tr>
 <th>Hardware</th>
@@ -14863,7 +14903,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p>Intel’s Habana Labs released the second generation of their deep learning processors for training and inference — Habana Gaudi2 (Gupta, 2022). IBM launched their first Telum Processor-based system, IBM z16, aimed at improving performance and efficiency for large datasets and featuring on-chip acceleration for AI inference (Fu, 2022).</p>
 <p>In March and June, Apple also made significant strides in their hardware capabilities, unveiling the M1 Ultra and M2 chip, both next-generation enhancements of their breakthrough M1 chip. The M1 Ultra doubled the number of previous of neural engine cores from 16 to 32 ("Apple unveils M1 Ultra," 2022). The new mac standard neural engine in M2 can process up to 15.8 TOPS, 40% faster than the prior year. ("Apple unveils M2," 2022).</p>
 <p>In July, IBM and Tokyo Electron made strides in 3D chip stacking by addressing the limitations posed by Moore's law. Silicon carrier wafers, a significant obstacle in 3D chip manufacturing, were at the core of their challenges. The advancements they've introduced are designed to optimize the production process, with the added advantage of potentially alleviating the global chip shortage (Peckham, 2022).</p>
-<p>On AI Day in September, Tesla revealed its powerful Dojo chip, designed for faster training and inference in self-driving cars (Gupta, 2022). AMD, though not traditionally focused on AI, released Zen 4, a new version of their Zen microarchitecture built on a 5 nm architecture, and introduced a new line of PC processors for ML capabilities (Fu, 2022). Meanwhile, Cerebras Systems launched their AI supercomputer, Andromeda, aiming to accelerate academic and commercial research (Gupta, 2022). In the same vein, SambaNova Systems announced the shipping of the second generation of the DataScale system—SN30. The system, powered by the Cardinal SN30 chip, is built for large models with more than 100 billion (100B) parameters and capable of handling both 2D and 3D images (Fu, 2022).</p>
+<p>On AI Day in September, Tesla revealed its powerful Dojo chip, designed for faster training and inference in self-driving cars. Meanwhile, Cerebras Systems launched their AI supercomputer, Andromeda, aiming to accelerate academic and commercial research. Both these major advancements were reported by Gupta (2022).</p>
+<p>AMD, though not traditionally focused on AI, released Zen 4, a new version of their Zen microarchitecture built on a 5 nm architecture, and introduced a new line of PC processors for ML capabilities. Additionally, SambaNova Systems announced the shipping of the second generation of the DataScale system—SN30. The system, powered by the Cardinal SN30 chip, is built for large models with more than 100 billion (100B) parameters and capable of handling both 2D and 3D images. These developments were detailed by Fu (2022).</p>
 <p>The 2022 AI Hardware Summit in September showcased the emergent trend of Edge AI, pointing out its potential as a major avenue for growth and performance improvement. Edge AI has seen remarkable advancement due to the maturation of deep learning and enhanced computing power. Edge AI has enormous advantages such as reduced latency, better privacy, and reduced energy consumption. Furthermore, a noticeable shift was identified toward TPUs in Edge AI, with more vendors beginning to adopt TPUs as AI accelerators. The Summit also highlighted how AI chips have now advanced to the level of detecting human emotions, emphasizing the impressive strides being made in object detection (Fu, 2022).</p>
 <p>In October, AWS announced the general availability of Amazon EC2 Trn1 instances, which are powered by AWS Trainium chips, build specifically for training high-performance ML applications in the cloud. Trn1 instances claim up to a 50% cost savings over comparable GPU-based EC2 instances for training large language models (Amazon Web Services, 2022). A month later, at AWS re:Invent 2022, Amazon made the EC2 Inf2 powered by the AWS Inferentia2 generally available. This machine learning accelerator, optimized for inference, offers larger compute density enabling lower cost per query. Inf2 also boasts the ability to deploy a 175B parameter model, such as GPT-3, in a single server. These two chip architectures represent a shift from using general purpose hardware to using hardware custom built to the specific phase of the system in order to lower task-specific compute costs (Liu, 2022).</p>
 <p>The November 2022 release of ChatGPT by OpenAI has highlighted the essential role of hardware in driving AI performance. The high-level functionality of ChatGPT demands significant memory, storage, and interconnect technology. For instance, GPT-3 was trained on an extensive network of 10,000 Nvidia A100 GPUs. Each Nvidia A100, which is a roughly $12,000 tensor core GPU (Kandel, 2023), is necessary to allow the 175B parameters to be trained on the 45 terabyte dataset in a reasonable amount of time. Once the model is trained, the real-time inference stage requires powerful servers for hosting the model, as well as efficient hardware capable of quickly processing requests to produce predictions quickly. A recent article suggested that OpenAI requires around 3,617 HGX A100 servers, equivalent to 28,936 single A100 GPUs, to serve ChatGPT every day. While the overhead of acquiring this hardware is very large, the massive infastructure allows ChatGPT to operate at a low cost per query of 0.36 cents (Patel &amp; Ahmad, 2023). ChatGPT is a successful AI system that relies on highly specialized hardware for each component of model production.</p>
@@ -15237,7 +15278,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Along with this potential for continued innovation surrounding AI, we also have a dramatically different outlook on AI developments by 2030. AI training costs are currently dropping around 70% per year and projected to continue at that same pace (ARK Investment Management LLC, 2023).</p>
+<p>Along with this potential for continued innovation surrounding AI, we also have a dramatically different outlook on AI developments by 2030. AI training costs are currently dropping around 70% per year and projected to continue at that same pace. An important point though is that this is relative to GPT-3 level performance, the underlying factor here is a hardware cost improvement projection and not a model complexity projection. (ARK Investment Management LLC, 2023).</p>
 
 </div>
 </div>
